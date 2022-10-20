@@ -1,0 +1,6 @@
+vhdl work "twoBitCounter.vhd"
+vhdl work "SevenSegmentDecoder.vhd"
+vhdl work "NineteenBitCounter.vhd"
+vhdl work "Multiplexer.vhd"
+vhdl work "AnodeDecoder.vhd"
+vhdl work "FourSegment.vhd"

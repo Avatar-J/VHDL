@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Oct 19 17:54:51 2022
+# Process ID: 9536
+# Log file: C:/Users/USER/Desktop/New folder/Four7segment/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/USER/Desktop/New folder/Four7segment/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/USER/Desktop/New folder/Four7segment/pa.fromNetlist.tcl}
+set_property iostandard LVCMOS33 [get_ports [list {AN[3]} {AN[2]} {AN[1]} {AN[0]}]]
+startgroup
+set_property package_pin E13 [get_ports {AN[3]}]
+endgroup
+startgroup
+set_property package_pin F14 [get_ports {AN[2]}]
+endgroup
+startgroup
+set_property package_pin G14 [get_ports {AN[1]}]
+endgroup
+startgroup
+set_property package_pin D14 [get_ports {AN[0]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list {segmentOutput[6]} {segmentOutput[5]} {segmentOutput[4]} {segmentOutput[3]} {segmentOutput[2]} {segmentOutput[1]} {segmentOutput[0]}]]
+startgroup
+set_property package_pin E14 [get_ports {segmentOutput[6]}]
+endgroup
+startgroup
+set_property package_pin G13 [get_ports {segmentOutput[5]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {segmentOutput[4]}]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports {segmentOutput[3]}]
+endgroup
+startgroup
+set_property package_pin R16 [get_ports {segmentOutput[2]}]
+endgroup
+startgroup
+set_property package_pin F13 [get_ports {segmentOutput[1]}]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports {segmentOutput[0]}]
+endgroup
+save_constraints
+set_property iostandard LVCMOS33 [get_ports [list clk]]
+startgroup
+set_property package_pin T9 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin K13 [get_ports reset]
+endgroup
+save_constraints -force
+set_property iostandard LVCMOS33 [get_ports [list reset]]
+save_constraints -force

@@ -1,0 +1,7 @@
+vhdl work "Tri_state_buffer.vhd"
+vhdl work "Product_Register.vhd"
+vhdl work "n_counter.vhd"
+vhdl work "mux2x1.vhd"
+vhdl work "multiplier.vhd"
+vhdl work "comparator.vhd"
+vhdl work "n_factorial.vhd"

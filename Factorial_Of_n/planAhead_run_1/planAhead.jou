@@ -1,0 +1,71 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue Oct 25 20:51:53 2022
+# Process ID: 484
+# Log file: C:/Users/USER/Desktop/New folder/Factorial_Of_n/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/USER/Desktop/New folder/Factorial_Of_n/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/USER/Desktop/New folder/Factorial_Of_n/pa.fromNetlist.tcl}
+set_property iostandard LVCMOS33 [get_ports [list {anode[3]} {anode[2]} {anode[1]} {anode[0]}]]
+startgroup
+set_property package_pin E13 [get_ports {anode[3]}]
+endgroup
+startgroup
+set_property package_pin E13 [get_ports {anode[3]}]
+endgroup
+startgroup
+set_property package_pin F14 [get_ports {anode[2]}]
+endgroup
+startgroup
+set_property package_pin G14 [get_ports {anode[1]}]
+endgroup
+startgroup
+set_property package_pin D14 [get_ports {anode[0]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list {input[2]} {input[1]} {input[0]}]]
+startgroup
+set_property package_pin H14 [get_ports {input[2]}]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports {input[1]}]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {input[0]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list {segment[6]} {segment[5]} {segment[4]} {segment[3]} {segment[2]} {segment[1]} {segment[0]}]]
+startgroup
+set_property package_pin E14 [get_ports {segment[6]}]
+endgroup
+startgroup
+set_property package_pin G13 [get_ports {segment[5]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {segment[4]}]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports {segment[3]}]
+endgroup
+startgroup
+set_property package_pin R16 [get_ports {segment[2]}]
+endgroup
+startgroup
+set_property package_pin F13 [get_ports {segment[1]}]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports {segment[0]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list clk]]
+set_property iostandard LVCMOS33 [get_ports [list enter]]
+set_property iostandard LVCMOS33 [get_ports [list reset]]
+startgroup
+set_property package_pin T9 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin K13 [get_ports enter]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports reset]
+endgroup
+save_constraints
